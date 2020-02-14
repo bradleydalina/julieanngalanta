@@ -1,7 +1,24 @@
 *{background-size:cover}
-html{font-family:'Open Sans',arial,helvetica,sans-serif;margin:0;padding:0}
-body{margin:0;padding:0;font-size:16px}
-section{position:relative;display:block;height:auto}
+html{font-family:'Open Sans',arial,helvetica,sans-serif;margin:0;padding:0; height:100%; width:100%;}
+body{margin:0;padding:0;font-size:16px
+     width:100%;
+     height:100%;
+     background:
+       linear-gradient(to top left,transparent 49.8%,#182540 50%) top /101% 80%;
+       /* linear-gradient(#E0E6E5,#E0E6E5) bottom/100% 30%; */
+     background-repeat:no-repeat;
+     background-image:url('../images/coffee-beans-in-white-ceramic-on-brown-wooden-table-1419923.jpg');
+     background-size:cover;
+    }
+main{justify-content: space-between;max-width:990px; padding:0px; box-shadow:0 0 10px 2px rgba(0,0,0,0.40); display:flex; margin:60px auto; background:#fff;}
+main > section.left-section{width:calc(40% - 60px); background:pink;margin:30px;}
+main > section.right-section{width:calc(60% - 60px); margin:30px;}
+main > section.left-section img.profile-image {
+    border-radius: 50%;
+    margin: 30px auto;
+    display: block;
+}
+section{position:relative;display:block;height:auto;}
 a{color:#222;text-decoration:none}
 p{line-height:32px;margin-top:0}
 h1{font-size:50px;font-weight:500;margin:0;margin-bottom:15px;line-height:normal;text-transform:uppercase;text-shadow:0 2px 8px rgba(0,0,0,.2)}
