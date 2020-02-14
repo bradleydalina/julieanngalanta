@@ -1,2 +1,0 @@
-# julieanngalanta
-Online Profile
