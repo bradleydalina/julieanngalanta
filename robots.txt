@@ -1,0 +1,20 @@
+User-agent: *
+
+Allow:/index.html
+Host: https://julieann.ga/
+#Sitemap: https://julieann.ga/sitemap.xml
+
+Disallow: /css/
+Noindex: /css/
+
+Disallow: /js/
+Noindex: /js/
+
+Disallow: /images/
+Noindex: /images/
+
+Disallow: /fonts/
+Noindex: /fonts/
+
+Disallow: /robots.txt
+Noindex: /robots.txt
